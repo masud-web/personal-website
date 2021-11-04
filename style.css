@@ -73,27 +73,9 @@ p{
 .about-area{
     height: 400px;
 }
-.skill{
-    height: 300px;
-    margin: 0 100px;
-}
-.skill-container{
-    
-    display: flex;
-    justify-content: center;
-}
-.skill-item{
-    width: 15%;
-    
-    background: coral;
-    margin:auto;
-    padding: 30px 10px;
-    font-size: 20px;
-    position: relative;
-    text-align:center;
-}
+
 .portfolio{
-    height: 650px;
+    height: 600px;
 }
 .project-container{
     margin: 30px 100px;    
@@ -112,6 +94,28 @@ p{
     border: 1px solid #d3d1d1;
     border-radius: 10px;
 }
+
+.skill{
+    height: 300px;
+    margin: 0 100px;
+}
+.skill-container{
+    
+    display: flex;
+    justify-content: center;
+}
+.skill-item{
+    width: 15%;
+    position: relative;
+    background: midnightblue;
+    margin:auto;
+    padding: 30px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align:center;
+}
+
 .chat{
     height: 270px;
     padding-top: 30px;
@@ -127,14 +131,14 @@ p{
 .chat-title{
     float: left;
     padding-left: 275px;
-    padding-top: 65px;
+    padding-top: 75px;
 }
 .chat-color{
-    color: coral;
+    color: khaki;
 }
 .chat-button{
     float: right;
-    margin-top: -55px;
+    margin-top: -43px;
     margin-right: 40px;
 }
 .footer{
